@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Management</title>
+    <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+s
+</head>
+<body>
+    <!-- body section  -->
+   <main class="w-3/4 mx-auto">
+    <h1 class=" text-purple-600 text-center text-4xl font-semibold mt-16">Money Management</h1>
+    <div class="container mt-16 bg-slate-50">
+        <div class=" grid grid-cols-2 gap-12 ">
+            <div id="image">
+                <img src="photo.jpg"alt="">
+            </div>
+            <div>
+                <!-- form section -->
+                <form >
+                    <div>
+                        <h4 id="income-input"class="text-center font-semibold text-lg">Income</h4>
+                    <label>Income<input type="text"class="border-2 bg-slate-200" ></label>
+
+                    
+
+                    <label>Rent:<input type="text"class=" border-2 my-2 bg-slate-200" id="rent-input"></label>
+                    <label>Food:<input type="text"class=" border-2 my-2 bg-slate-200" id="food-input"></label>
+                    <label>Tution Fees:<input type="text"class=" border-2 my-2 bg-slate-200" id="tution-input"></label>
+                    <h4 class="text-center font-semibold text-lg mb-4">Expenses</h4>
+                    <!-- calculate button  -->
+                    <button id="btn-calculate"class="px-10 py-2 bg-purple-500 text-white font-semibold rounded mb-2">Calculate</button>
+
+                     <label ><span class="font-semibold text-lg mb-4 text-center">Total Expenses : </span><input type="text"class="  border-2 my-2 bg-slate-200 " id="expense-field"></label>
+                     <label><span class="text-center font-semibold text-lg mb-4">Balance : </span> </label><input type="text"class="  border-2 my-2 bg-slate-200" id="balance-field">
+                    <!-- last section  -->
+                    <label>Save:<input type="text" class="border-2 bg-slate-200" >%</label>
+                    <button class="bg-purple-500 px-8 py-1 rounded-none text-white font-semibold">Save</button>
+
+                    <h4 class="text-center font-semibold text-lg mb-4">Saving Amount:</h4>
+                    <h4 class="text-center font-semibold text-lg mb-4">Remaining Balance:</h4>
+                    </div>
+                 </form>
+                </div>
+                     </div>
+
+                         </div>
+                        </main>
+                        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="Js/index.js"></script>
+</body>
+</html>
